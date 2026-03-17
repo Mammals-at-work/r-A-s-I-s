@@ -1,7 +1,7 @@
 {
-  "name": "rssai",
+  "name": "r-a-s-i-s",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -14,19 +14,19 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "cheerio": "^1.1.0",
-    "pg": "^8.13.1",
-    "rss-parser": "^3.13.0",
-    "sanitize-html": "^2.14.0",
-    "zod": "^3.24.1"
+    "cheerio": "1.1.0",
+    "pg": "8.13.1",
+    "rss-parser": "3.13.0",
+    "sanitize-html": "2.14.0",
+    "zod": "3.24.1"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
-    "@types/pg": "^8.11.11",
-    "@types/sanitize-html": "^2.13.0",
-    "pg-mem": "^3.0.5",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "vitest": "^2.1.8"
+    "@types/node": "24.0.0",
+    "@types/pg": "8.11.11",
+    "@types/sanitize-html": "2.13.0",
+    "pg-mem": "3.0.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3",
+    "vitest": "2.1.8"
   }
 }
